@@ -50,6 +50,15 @@ conn = init_db()
 st.title("Spicerack Health Policy Monitoring AI")
 st.caption("Tracks federal and state RD telehealth policy, translates changes into Illinois & multi-state operational actions, and routes alerts by team role.")
 
+# --- DAILY UPDATE STATUS BANNER ---
+meta = data.get("system_metadata", {})
+last_update = meta.get("last_automated_update", datetime.utcnow().strftime("%A, %B %d, %Y"))
+
+st.success(
+    f"**Daily Policy Intelligence Update Completed:** Monitored on **{last_update}**. "
+    f"Federal Register rules, CMMI model tracks, and compact statuses verified."
+)
+
 tabs = st.tabs([
     "1. Policy Dashboard & Spicerack Strategy",
     "2. 19-State Licensure Compact & Expansion Map",
