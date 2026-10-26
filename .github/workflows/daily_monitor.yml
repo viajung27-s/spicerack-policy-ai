@@ -1,0 +1,40 @@
+name: Spicerack Daily Policy Monitor
+
+on:
+  schedule:
+    # Runs every morning at 8:00 AM Central / 13:00 UTC
+    - cron: '0 13 * * *'
+  workflow_dispatch: # Allows you to manually trigger the check anytime from GitHub
+
+jobs:
+  check-policy-updates:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily policy monitoring script
+        env:
+          SLACK_WEBHOOK_COMPLIANCE: ${{ secrets.SLACK_WEBHOOK_COMPLIANCE }}
+          SLACK_WEBHOOK_REVCYCLE: ${{ secrets.SLACK_WEBHOOK_REVCYCLE }}
+          SLACK_WEBHOOK_BD: ${{ secrets.SLACK_WEBHOOK_BD }}
+        run: python daily_check.py
+
+      - name: Commit and push changes if seed_data was updated
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Spicerack Policy Bot"
+          git add seed_data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated daily policy status refresh [skip ci]" && git push)
