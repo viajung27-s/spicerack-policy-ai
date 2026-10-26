@@ -47,20 +47,19 @@ def load_seed_data():
 data = load_seed_data()
 conn = init_db()
 
-# Title updated with no emoji as requested
 st.title("Spicerack Health Policy Monitoring AI")
 st.caption("Tracks federal and state RD telehealth policy, translates changes into Illinois & multi-state operational actions, and routes alerts by team role.")
 
 tabs = st.tabs([
     "1. Policy Dashboard & Spicerack Strategy",
     "2. 19-State Licensure Compact & Expansion Map",
-    "3. Billing, Coding & Payer Layer",
+    "3. Billing, Coding & Margin Analysis",
     "4. CMMI & Pharma B2B Partnership Tracker",
     "5. Live Source Monitor & Audit Trail",
     "6. Internal Impact Log & Advocacy"
 ])
 
-# --- TAB 1: POLICY TRACKER, DIRECT LINKS & SPICERACK RECOMMENDATIONS ---
+# --- TAB 1: POLICY TRACKER, DIRECT LINKS & STRATEGY ---
 with tabs[0]:
     st.subheader("Key Regulatory Deadlines & Sunsets")
     deadlines_df = pd.DataFrame(data["deadlines"])
@@ -70,12 +69,12 @@ with tabs[0]:
     st.dataframe(deadlines_df, use_container_width=True, hide_index=True)
 
     st.divider()
-    st.subheader("Policy Tracker, Direct Source Links & Personalized Spicerack Health Recommendations")
+    st.subheader("Policy Tracker, Direct Source Links & Personalized Spicerack Recommendations")
     col_filter1, col_filter2 = st.columns(2)
     with col_filter1:
         score_filter = st.multiselect("Filter by Impact Score", ["High", "Medium", "Low"], default=["High", "Medium", "Low"])
     with col_filter2:
-        search_filter = st.text_input("Search by tag or keyword (e.g., Illinois, Obesity, GLP-1, PLLC, eCKM)")
+        search_filter = st.text_input("Search by tag or keyword (e.g., Illinois, Obesity, GLP-1, PLLC, G0669, CKM)")
 
     for pol in data["policies"]:
         if pol["impact_score"] not in score_filter:
@@ -108,12 +107,12 @@ with tabs[0]:
                 for link in pol["secondary_links"]:
                     st.markdown(f"- [{link['label']}]({link['url']})")
 
-# --- TAB 2: STATE-BY-STATE LICENSURE MAP ---
+# --- TAB 2: STATE LICENSURE MAP ---
 with tabs[1]:
     st.subheader("Dietitian Licensure Compact (19 Member States) & Spicerack Expansion Map")
     st.markdown(
         "**Spicerack Licensure & PLLC Strategy:** Compact privileges are expected in **2027** (12–24 month implementation window; 0 privileges issued today). "
-        "**Illinois** does not have an active bill yet. Remember that the Compact only covers individual RD licensure—Spicerack must still qualify as a foreign PLLC "
+        "**Illinois** does not have an active bill yet. The Compact only covers individual RD licensure—Spicerack must still qualify as a foreign PLLC "
         "and verify state ownership rules for Illinois-licensed members."
     )
     states_df = pd.DataFrame(data["states"])
@@ -138,21 +137,31 @@ with tabs[1]:
     st.plotly_chart(fig, use_container_width=True)
     st.dataframe(states_df, use_container_width=True, hide_index=True)
 
-# --- TAB 3: BILLING, CODING & PAYER LAYER ---
+# --- TAB 3: BILLING, CODING & MARGIN ANALYSIS ---
 with tabs[2]:
-    st.subheader("MNT CPT / HCPCS & CMS ACCESS Outcome-Aligned Payment Reference")
-    st.dataframe(pd.DataFrame(data["billing_codes"]), use_container_width=True, hide_index=True)
+    st.subheader("Traditional Medicare Part B MNT Reimbursement (Diabetes & Renal)")
+    st.markdown("Dietitians receive **85% of the Physician Fee Schedule** (42 C.F.R. § 414.64). Qualified beneficiaries have **$0 cost sharing**.")
+    st.dataframe(pd.DataFrame(data["billing_codes_mnt"]), use_container_width=True, hide_index=True)
 
     st.divider()
-    st.subheader("Payer Policy Layer & Spicerack Revenue Strategy")
+    st.subheader("CMS ACCESS Outcome-Aligned Payment (OAP) Codes & Unit Economics")
+    st.warning(
+        "**Margin Warning for Spicerack:** In CKM, the maximum monthly reimbursement is **$35/month (G0671)** before the 20% patient coinsurance. "
+        "That is less than a single 15-minute MNT unit ($36.74 for 97802). Furthermore, **up to 50% of the annual fee is held back** until year-end outcome targets are proven. "
+        "ACCESS cannot financially support hourly live RD visits; Spicerack must deliver this model via **automated AI monitoring and asynchronous touchpoints**."
+    )
+    st.dataframe(pd.DataFrame(data["billing_codes_access"]), use_container_width=True, hide_index=True)
+
+    st.divider()
+    st.subheader("Payer Revenue Architecture Comparison")
     st.dataframe(pd.DataFrame(data["payers"]), use_container_width=True, hide_index=True)
 
-# --- TAB 4: CMMI & PHARMA B2B PARTNERSHIP TRACKER ---
+# --- TAB 4: CMMI & PHARMA B2B PARTNERSHIPS ---
 with tabs[3]:
     st.subheader("CMMI Models (ACCESS, LEAD, BALANCE) & Pharma Partner Portals")
     st.markdown(
         "- **CMS ACCESS:** Apply directly on a rolling basis as a Medicare Part B TIN for the **eCKM** and **CKM** tracks ($180–$360 Year 1; $90–$210 follow-on).\n"
-        "- **CMS BALANCE:** Spicerack cannot apply directly to CMS; partner directly with GLP-1 manufacturers (**Novo Nordisk** and **Eli Lilly**).\n"
+        "- **CMS BALANCE:** Standalone provider billing is not permitted by CMS; partner directly with GLP-1 manufacturers (**Novo Nordisk** and **Eli Lilly**).\n"
         "- **CMS LEAD:** Pitch a predictable **PMPM or case-rate** nutrition program to participating ACOs (5,000+ beneficiaries) in Illinois and expansion states."
     )
     part_df = pd.DataFrame(data["partnerships"])
@@ -165,11 +174,11 @@ with tabs[3]:
         hide_index=True
     )
 
-# --- TAB 5: AUTOMATED SOURCE MONITORING, ALERTS & AUDIT TRAIL ---
+# --- TAB 5: AUTOMATED MONITORING & AUDIT TRAIL ---
 with tabs[4]:
     c_left, c_right = st.columns(2)
     with c_left:
-        st.subheader("Live Federal Register API Check")
+        st.subheader("Live Federal Register API Query")
         query_term = st.selectbox(
             "Select Policy Query",
             ["Medical Nutrition Therapy", "Physician Fee Schedule Telehealth", "Accountable Care"]
@@ -211,7 +220,7 @@ with tabs[4]:
         audit_df = pd.read_sql_query("SELECT * FROM audit_trail ORDER BY id DESC LIMIT 10", conn)
         st.dataframe(audit_df, use_container_width=True, hide_index=True)
 
-# --- TAB 6: INTERNAL IMPACT LOG, ROLE ALERTS & ADVOCACY ---
+# --- TAB 6: INTERNAL IMPACT LOG & ADVOCACY ---
 with tabs[5]:
     col_a, col_b = st.columns(2)
     with col_a:
@@ -220,7 +229,7 @@ with tabs[5]:
             pol_choice = st.selectbox("Linked Policy", [p["name"] for p in data["policies"]])
             area_choice = st.selectbox("Impact Area", ["Licensure & Foreign PLLC", "Medicare Enrollment & Billing", "ACCESS / LEAD / BALANCE B2B", "Patient Location Compliance"])
             role_choice = st.selectbox("Assign & Alert Role", ["Compliance", "Revenue Cycle", "Business Development"])
-            task_desc = st.text_area("Action Item (e.g., Enroll PLLC & RDs in Medicare, complete CMS ACCESS eCKM interest form)")
+            task_desc = st.text_area("Action Item (e.g., Enroll PLLC in Medicare Part B, finalize G0669/G0671 billing guide)")
             submitted = st.form_submit_button("Log Task & Trigger Role Alert")
             if submitted and task_desc:
                 cur = conn.cursor()
