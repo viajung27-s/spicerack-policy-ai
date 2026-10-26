@@ -6,8 +6,8 @@
       "status": "Introduced in Committee (119th Congress ends Jan 3, 2027)",
       "impact_area": "Coverage, Eligible Diagnoses, Referral Rules",
       "impact_score": "High",
-      "summary": "H.R. 6199 (introduced Nov 20, 2025 by Rep. Robin Kelly, D-IL) and S. 3934 (introduced Feb 26, 2026 by Sens. Collins & Peters; cosponsored by Sens. Marshall, Booker, Klobuchar, Warner) expand Medicare Part B MNT beyond diabetes and renal disease to include obesity, prediabetes, hypertension, dyslipidemia, cancer, CVD, HIV/AIDS, GI/celiac disease, malnutrition, and eating disorders. Also authorizes NPs, PAs, CNSs, and psychologists to refer.",
-      "so_what": "Unlikely to pass before the 119th Congress adjourns on Jan 3, 2027 due to lack of CBO score/committee action; expect reintroduction in early 2027 (120th Congress).",
+      "summary": "H.R. 6199 (Rep. Robin Kelly, D-IL) and S. 3934 (Sens. Collins & Peters) expand Medicare Part B MNT beyond diabetes and renal disease to include obesity, prediabetes, hypertension, dyslipidemia, cancer, CVD, HIV/AIDS, GI/celiac disease, malnutrition, and eating disorders. Also authorizes NPs, PAs, CNSs, and psychologists to refer.",
+      "so_what": "Unlikely to pass before the 119th Congress adjourns on Jan 3, 2027 due to lack of CBO score; expect reintroduction in early 2027 (120th Congress).",
       "spicerack_recommendations": [
         "Enroll the Spicerack PLLC and each individual RD in Medicare now to build billing workflows and capture existing Medicare MNT revenue for diabetes and renal patients.",
         "Build a direct local advocacy relationship with Rep. Robin Kelly's office (IL-02, bill sponsor) and the Academy of Nutrition and Dietetics advocacy team.",
@@ -24,7 +24,7 @@
         {"label": "GovTrack Congressional Tracker", "url": "https://www.govtrack.us/"}
       ],
       "route_to": "Revenue Cycle, Clinical Ops",
-      "last_checked": "2026-10-14"
+      "last_checked": "2026-10-25"
     },
     {
       "id": "rd-compact",
@@ -32,12 +32,12 @@
       "status": "Legally Active in 19 States (Privileges Expected 2027)",
       "impact_area": "Licensure, Cross-State Practice, Entity Compliance",
       "impact_score": "High",
-      "summary": "Interstate compact allowing RDs/RDNs with an unencumbered license in a member home state to practice across member states via a 'compact privilege' without separate individual licenses. Enacted in 19 states across 2024-2026 (AL, NE, TN, AR, IA, KS, MS, MT, ND, OH, OK, RI, SD, UT, WI, GA, KY, MO, WA). Activation threshold (7 states) met; 12-24 month implementation means privileges are expected in 2027. Illinois has not introduced a bill yet.",
-      "so_what": "No compact privileges are issued yet, and Illinois is not yet a member state. Furthermore, the compact only covers individual RD licensure—not PLLC corporate entity qualification.",
+      "summary": "Interstate compact allowing RDs/RDNs with an unencumbered license in a member home state to practice across member states via a 'compact privilege'. Enacted in 19 states (AL, NE, TN, AR, IA, KS, MS, MT, ND, OH, OK, RI, SD, UT, WI, GA, KY, MO, WA). Privileges expected in 2027. Illinois has not introduced a bill yet.",
+      "so_what": "No compact privileges are issued yet, and Illinois is not yet a member state. The compact only covers individual RD licensure—not PLLC corporate entity qualification.",
       "spicerack_recommendations": [
         "Limit near-term state expansion to non-licensure or low-barrier states until compact privileges officially issue in 2027.",
         "Verify foreign entity qualification and professional ownership rules in each target state to confirm an Illinois-licensed PLLC can legally operate there.",
-        "Build a state-by-state Practice Act compliance guide for Spicerack RDs, as practitioners remain legally responsible for obeying the remote state's scope of practice.",
+        "Build a state-by-state Practice Act compliance guide for Spicerack RDs; practitioners remain legally responsible for remote state scope of practice.",
         "Recruit RDs residing in the 19 enacted compact member states so they can immediately leverage multi-state compact privileges once issued in 2027, and advocate for an Illinois compact bill."
       ],
       "primary_links": [
@@ -49,7 +49,7 @@
         {"label": "Academy of Nutrition and Dietetics Licensure Statutes", "url": "https://www.eatrightpro.org/advocacy/licensure/licensure-map-and-statutes"}
       ],
       "route_to": "Compliance, Clinical Recruiting",
-      "last_checked": "2026-10-14"
+      "last_checked": "2026-10-25"
     },
     {
       "id": "medicare-telehealth",
@@ -57,11 +57,11 @@
       "status": "Extended Through Dec 31, 2027",
       "impact_area": "Origination Site, Geographic Waivers, Reimbursement",
       "impact_score": "High",
-      "summary": "The Consolidated Appropriations Act of 2026 (H.R. 7148, signed Feb 2026) extended Medicare telehealth flexibilities through December 31, 2027 and retroactively covered the post-Jan 30, 2026 lapse. While RDs are permanently eligible distant-site practitioners and MNT codes are permanent on the Medicare Telehealth List, the waiver allowing patients to receive telehealth at home (SSA § 1834(m) / 42 C.F.R. § 410.78) expires Dec 31, 2027.",
-      "so_what": "Home-based Medicare MNT telehealth is secure through 2027, but if Congress fails to pass an extension or permanent law by Dec 31, 2027, beneficiaries would have to travel to rural qualifying originating sites.",
+      "summary": "The Consolidated Appropriations Act of 2026 (H.R. 7148, Feb 2026) extended Medicare telehealth flexibilities through December 31, 2027 and retroactively covered the post-Jan 30, 2026 lapse. Distant-site RD eligibility and MNT CPT codes on the Telehealth List are permanent, but the home originating-site waiver expires Dec 31, 2027.",
+      "so_what": "Home-based Medicare MNT telehealth is secure through 2027, but if Congress fails to pass an extension by Dec 31, 2027, patients must travel to rural qualifying clinical sites.",
       "spicerack_recommendations": [
-        "Diversify Spicerack's payer mix with commercial payers and value-based B2B contracts now so post-2027 revenue is not solely dependent on Congressional Medicare extensions.",
-        "Maintain strict intake and clinical documentation of patient physical location at every visit to satisfy both state telehealth laws and potential post-2027 Medicare originating-site audits.",
+        "Diversify Spicerack's payer mix with commercial payers and value-based B2B contracts now so post-2027 revenue is not solely dependent on Medicare extensions.",
+        "Maintain strict intake and clinical documentation of patient physical location at every visit to satisfy state laws and potential post-2027 Medicare audits.",
         "Remember that federal Medicare telehealth waivers do not override state-level licensure or state telehealth practice standards."
       ],
       "primary_links": [
@@ -74,7 +74,7 @@
         {"label": "Center for Connected Health Policy (CCHP)", "url": "https://www.cchpca.org/"}
       ],
       "route_to": "Compliance, Revenue Cycle",
-      "last_checked": "2026-10-14"
+      "last_checked": "2026-10-25"
     },
     {
       "id": "cms-access",
@@ -82,23 +82,25 @@
       "status": "Launched July 2026 (Rolling Applications Open)",
       "impact_area": "Payment Model, Outcomes-Aligned Reimbursement",
       "impact_score": "High",
-      "summary": "10-year voluntary CMMI model supporting virtual and asynchronous technology-enabled chronic care for Original Medicare. Launched July 2026 with 150 organizations; expanded Sept 15, 2026 to add heart failure, COPD, SUD, and tobacco cessation alongside eCKM (obesity, prediabetes, hypertension, dyslipidemia) and CKM (diabetes, CKD, ASCVD). Pays Outcome-Aligned Payments of $180-$360 in Year 1 per patient/track and $90-$210 for follow-on care through Dec 31, 2027.",
-      "so_what": "Unlike traditional Medicare MNT, ACCESS pays directly for obesity, prediabetes, hypertension, and dyslipidemia management under the eCKM track, and major commercial payers (CVS, Humana, UHC, Cigna, BSCA) pledged aligned options.",
+      "summary": "10-year CMMI model supporting virtual and asynchronous chronic care for Original Medicare. Launched July 2026 (150 orgs); expanded Sept 15, 2026. Features monthly billing codes (G0669 at $30/mo for eCKM; G0671 at $35/mo for CKM) with 50% held back for year-end outcome benchmarks. Medicare pays 80%, patient owes 20% coinsurance.",
+      "so_what": "Pays for obesity and prediabetes, but at $30-$35/month max, reimbursement is far below standard 15-minute RD fee-for-service. Only technology/AI-driven asynchronous models can sustain margins; 100% live RD 1-on-1 care will lose money under ACCESS.",
       "spicerack_recommendations": [
-        "Complete the CMS ACCESS rolling interest form and review the participation agreement specifically targeting the eCKM (obesity, prediabetes, hypertension, dyslipidemia) and CKM tracks.",
-        "Use the ACCESS Outcome-Aligned Payment bands ($180-$360 Year 1; $90-$210 follow-on care) to build Spicerack's internal financial and unit-economics models.",
-        "Leverage ACCESS to get reimbursed for Original Medicare obesity and prediabetes patients that standard Part B MNT currently excludes."
+        "Position Spicerack's AI monitoring and asynchronous messaging platform to handle the day-to-day engagement required under G0669/G0671, reserving high-cost RD hours for intake and escalation.",
+        "Model financial projections accounting for the 50% year-end outcome holdback and 20% patient coinsurance collection risk.",
+        "Complete the CMS ACCESS rolling interest form focused on the eCKM (obesity, prediabetes) and CKM tracks."
       ],
       "primary_links": [
         {"label": "CMS ACCESS Model Official Page", "url": "https://www.cms.gov/priorities/innovation/innovation-models/access"},
-        {"label": "CMS ACCESS Technical FAQs", "url": "https://www.cms.gov/priorities/innovation/access-technical-frequently-asked-questions"},
-        {"label": "CMS Sept 15, 2026 Expansion Press Release", "url": "https://www.cms.gov/newsroom/press-releases/cms-adds-medicare-options-help-people-manage-substance-use-disorder-heart-failure-other-common"}
+        {"label": "CMS ACCESS Payment Amounts & Performance Targets PDF", "url": "https://www.cms.gov/priorities/innovation/files/access-payments-amts-perf-targets.pdf"},
+        {"label": "CMS ACCESS OAP Billing Guidelines PDF", "url": "https://www.cms.gov/priorities/innovation/files/access-oap-billing-guidelines.pdf"},
+        {"label": "CMS ACCESS Co-Management Payment (CMP) Guidance", "url": "https://www.cms.gov/priorities/innovation/access-co-management-payment-cmp-billing-guidance"},
+        {"label": "CMS ACCESS Technical FAQs", "url": "https://www.cms.gov/priorities/innovation/access-technical-frequently-asked-questions"}
       ],
       "secondary_links": [
         {"label": "TechTarget: CMS Taps Verily, Noom & 150 Others for ACCESS", "url": "https://www.techtarget.com/virtualhealthcare/news/366641624/CMS-taps-Verily-Noom-150-others-to-participate-in-ACCESS-model"}
       ],
       "route_to": "Business Development, Revenue Cycle",
-      "last_checked": "2026-10-14"
+      "last_checked": "2026-10-25"
     },
     {
       "id": "cms-lead",
@@ -106,23 +108,25 @@
       "status": "Launches Jan 1, 2027 (10-Year Model to 2036)",
       "impact_area": "Payment Model, ACO B2B Contracting",
       "impact_score": "Medium",
-      "summary": "Long-term Enhanced ACO Design (LEAD) is CMS's 10-year successor to ACO REACH (Jan 1, 2027 - Dec 31, 2036) with Global Risk (100% shared savings/losses) and Professional Risk (up to 50%) tracks plus primary/total care capitation. Participating ACOs must have at least 5,000 aligned Original Medicare beneficiaries.",
-      "so_what": "Because LEAD ACOs bear heavy downside risk and receive capitated cash flows, they can pay Spicerack directly for preventive nutrition services (like non-diabetic obesity care) that Fee-For-Service Medicare denies.",
+      "summary": "10-year successor to ACO REACH (Jan 1, 2027 - Dec 31, 2036) with Global (100%) and Professional (50%) risk tracks and primary/total care capitation. Participating ACOs must have at least 5,000 aligned Original Medicare beneficiaries. Dietitians receive 85% of the Physician Fee Schedule under 42 C.F.R. § 414.64.",
+      "so_what": "LEAD ACOs bear downside financial risk and can use capitation dollars to pay Spicerack a predictable PMPM or case rate to deliver nutrition interventions for non-diabetic obesity that Medicare FFS excludes.",
       "spicerack_recommendations": [
-        "Monitor CMS for the published list of accepted LEAD ACOs and filter for hospital networks, physician groups, and FQHCs operating in Illinois and Spicerack's target expansion states.",
-        "Pitch LEAD ACOs a predictable per-member-per-month (PMPM) or case-rate nutrition program so ACOs can budget fixed preventive care expenses against their downside risk.",
-        "Highlight Spicerack's ability to manage non-diabetic obesity and cardiometabolic risk for the ACO's 5,000+ aligned Original Medicare beneficiaries."
+        "Target published LEAD ACO participant lists in Illinois and expansion states with at least 5,000 aligned beneficiaries.",
+        "Pitch LEAD ACOs a predictable PMPM or case-rate contract for chronic disease management, highlighting the 3-hour Year 1 / 2-hour Year 2 FFS equivalent cap ($250-$400/pt/yr) as a benchmark.",
+        "Emphasize that clinical nutrition reduces preventable admissions and helps ACOs earn their 50%-100% shared savings."
       ],
       "primary_links": [
         {"label": "CMS LEAD Model Official Page", "url": "https://www.cms.gov/priorities/innovation/innovation-models/lead"},
-        {"label": "CMS Innovation Insight: Inviting ACOs to Apply for LEAD", "url": "https://www.cms.gov/priorities/innovation/innovation-insight-cms-invites-acos-apply-new-lead-model"},
-        {"label": "CMS ACO REACH Reference Page", "url": "https://www.cms.gov/priorities/innovation/innovation-models/aco-reach"}
+        {"label": "42 C.F.R. § 414.64 (Payment for Dietitian Services at 85% PFS)", "url": "https://www.ecfr.gov/current/title-42/section-414.64"},
+        {"label": "CMS National Coverage Determination (NCD) for MNT", "url": "http://www.cms.gov/Medicare-Coverage-Database/view/ncd.aspx?ncdid=252"},
+        {"label": "42 C.F.R. Part 410 Subpart G (MNT Covered Services)", "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-410/subpart-G"}
       ],
       "secondary_links": [
-        {"label": "NAACOS (National Association of ACOs)", "url": "https://www.naacos.com/"}
+        {"label": "NAACOS (National Association of ACOs)", "url": "https://www.naacos.com/"},
+        {"label": "TheraThink CPT 97802 / 97803 Reimbursement Guide", "url": "https://therathink.com/cpt-code-97802/"}
       ],
       "route_to": "Business Development",
-      "last_checked": "2026-10-14"
+      "last_checked": "2026-10-25"
     },
     {
       "id": "cms-balance",
@@ -130,24 +134,24 @@
       "status": "State RFA Window Open (May 2026 - Jan 1, 2027)",
       "impact_area": "Payment Model, Pharma B2B Partnerships, GLP-1 Wrap-Around",
       "impact_score": "High",
-      "summary": "Announced Dec 23, 2025 under SSA § 1115A, BALANCE lowers GLP-1 net prices and caps out-of-pocket costs across Medicare Part D and Medicaid while mandating that participating pharmaceutical manufacturers provide or support evidence-based lifestyle, fitness, and nutrition counseling. State Medicaid agencies can join from May 2026 through Jan 1, 2027 (Illinois Medicaid participation is not yet confirmed).",
-      "so_what": "Spicerack cannot apply to CMS as a standalone participant to bill BALANCE directly; revenue depends entirely on B2B vendor partnerships with participating GLP-1 manufacturers.",
+      "summary": "Announced Dec 23, 2025 under SSA § 1115A. Mandates participating GLP-1 manufacturers provide evidence-based lifestyle and nutrition support. State Medicaid agencies can join through Jan 1, 2027 (Illinois status unconfirmed). RDs cannot bill CMS directly; revenue comes solely from pharma vendor contracts.",
+      "so_what": "Spicerack cannot apply to CMS to bill BALANCE directly. Revenue is entirely determined by what pharmaceutical company contracts offer, and manufacturers may favor lower-cost AI wrap-arounds over live clinical staffing.",
       "spicerack_recommendations": [
-        "Submit vendor partnership proposals directly through Novo Nordisk's Digital Partnerships portal and Eli Lilly's Supplier Development portal to serve as their virtual RD lifestyle wrap-around provider.",
-        "Do not spend administrative resources attempting to apply directly to CMS as a standalone billing provider for BALANCE.",
-        "Track whether the Illinois Department of Healthcare and Family Services (Medicaid) submits a State RFA prior to the January 1, 2027 deadline."
+        "Pitch pharma partners (Novo Nordisk, Eli Lilly) a hybrid model pairing Spicerack's AI tracking platform with licensed RD telehealth support.",
+        "Apply directly via Novo Nordisk Digital Partnerships and Eli Lilly Supplier Development portals.",
+        "Track Illinois Department of Healthcare and Family Services (HFS) for an official BALANCE State RFA submission prior to Jan 1, 2027."
       ],
       "primary_links": [
         {"label": "CMS BALANCE Model Official Page", "url": "https://www.cms.gov/priorities/innovation/innovation-models/balance"},
-        {"label": "CMS Technology-Enabled Care & AI Concepts", "url": "https://www.cms.gov/priorities-innovation-key-concepts-technology-enabled-care-artificial-intelligence"},
         {"label": "Novo Nordisk Digital Partnerships Portal", "url": "https://digitalpartnerships.novonordisk.com/"},
-        {"label": "Eli Lilly Supplier Development Portal", "url": "https://www.lilly.com/suppliers/development"}
+        {"label": "Eli Lilly Supplier Development Portal", "url": "https://www.lilly.com/suppliers/development"},
+        {"label": "CMS Technology-Enabled Care & AI Concepts", "url": "https://www.cms.gov/priorities-innovation-key-concepts-technology-enabled-care-artificial-intelligence"}
       ],
       "secondary_links": [
-        {"label": "NCPA: CMS Formally Announces BALANCE Model Expanding GLP-1 Access", "url": "https://ncpa.org/newsroom/qam/2026/01/05/cms-formally-announces-balance-model-expanding-access-glp-1-medications"}
+        {"label": "NCPA: CMS BALANCE Model GLP-1 Coverage Analysis", "url": "https://ncpa.org/newsroom/qam/2026/01/05/cms-formally-announces-balance-model-expanding-access-glp-1-medications"}
       ],
       "route_to": "Business Development",
-      "last_checked": "2026-10-14"
+      "last_checked": "2026-10-25"
     }
   ],
   "deadlines": [
@@ -205,39 +209,46 @@
     {"state": "CO", "compact_status": "Low-Barrier Non-Compact", "reg_type": "No State Licensure", "privilege_active": "Open Practice", "telehealth_notes": "Feasible near-term expansion state before compact privileges launch."},
     {"state": "CA", "compact_status": "Low-Barrier Non-Compact", "reg_type": "Title Protection Only", "privilege_active": "Open Practice with CDR", "telehealth_notes": "Verify foreign PLLC rules; CA prohibits standard PLLCs, requiring alternative corporate structure."}
   ],
-  "billing_codes": [
-    {"code": "97802", "description": "MNT; initial assessment and intervention, individual, face-to-face with patient, each 15 mins", "pos_10": "Covered at Home (Thru Dec 31, 2027)", "pos_02": "Covered", "modifiers": "95 (Audio-Video)", "notes": "Enroll Spicerack PLLC & RDs in Medicare now to bill for diabetes and renal disease."},
-    {"code": "97803", "description": "MNT; re-assessment and intervention, individual, each 15 mins", "pos_10": "Covered at Home (Thru Dec 31, 2027)", "pos_02": "Covered", "modifiers": "95", "notes": "Document patient location at every visit in case home waiver sunsets post-2027."},
-    {"code": "97804", "description": "MNT; group (2 or more individuals), each 30 mins", "pos_10": "Covered at Home (Thru Dec 31, 2027)", "pos_02": "Covered", "modifiers": "95", "notes": "Permanent on Medicare Telehealth List; location waiver runs through 2027."},
-    {"code": "G0270 / G0271", "description": "MNT reassessment/intervention following second referral in same year for change in diagnosis", "pos_10": "Covered at Home (Thru Dec 31, 2027)", "pos_02": "Covered", "modifiers": "95", "notes": "Used for additional Medicare hours beyond initial annual cap."},
-    {"code": "ACCESS OAP", "description": "CMS ACCESS Outcome-Aligned Payment (eCKM & CKM Tracks)", "pos_10": "Virtual / Asynchronous Permitted", "pos_02": "Covered", "modifiers": "Model-Specific TIN Billing", "notes": "$180-$360 Year 1 per patient/track; $90-$210 follow-on care thru Dec 31, 2027. Covers obesity & prediabetes."}
+  "billing_codes_mnt": [
+    {"code": "97802", "service": "First assessment and treatment (individual)", "unit": "15 min", "natl_rate_2026": "$36.74", "coinsurance": "$0 for qualified Medicare patients", "notes": "Capped at 3 hours total (with 97803) in Year 1. Medicare pays 85% of PFS."},
+    {"code": "97803", "service": "Reassessment and treatment (individual)", "unit": "15 min", "natl_rate_2026": "$31.73", "coinsurance": "$0 for qualified Medicare patients", "notes": "Capped at 2 hours total in subsequent years. Medicare pays 85% of PFS."},
+    {"code": "97804", "service": "Group session (2+ patients)", "unit": "30 min", "natl_rate_2026": "$17.03", "coinsurance": "$0 for qualified Medicare patients", "notes": "Scalable group education for diabetes/renal cohorts."},
+    {"code": "G0270", "service": "Reassessment following second referral (change in diagnosis)", "unit": "15 min", "natl_rate_2026": "Aligned w/ 97803", "coinsurance": "$0", "notes": "Allows additional billing hours beyond annual cap if referring MD documents change."},
+    {"code": "G0271", "service": "Reassessment following second referral, group", "unit": "30 min", "natl_rate_2026": "Aligned w/ 97804", "coinsurance": "$0", "notes": "Group equivalent of G0270."}
+  ],
+  "billing_codes_access": [
+    {"track": "eCKM (Obesity, Prediabetes, HTN, Dyslipidemia)", "monthly_code": "G0669", "monthly_amount": "$30/month", "initial_period_max": "$360/year", "follow_on_max": "$180/year", "margin_verdict": "Low live RD margin. Requires AI/asynchronous automation to be profitable."},
+    {"track": "CKM (Diabetes, CKD, ASCVD)", "monthly_code": "G0671", "monthly_amount": "$35/month", "initial_period_max": "$420/year", "follow_on_max": "$210/year", "margin_verdict": "Max $35/mo before 20% patient coinsurance is less than one 15-min MNT unit ($36.74)."},
+    {"track": "MSK (Chronic Pain)", "monthly_code": "G0673", "monthly_amount": "$15/month", "initial_period_max": "$180/year", "follow_on_max": "None", "margin_verdict": "Non-core for Spicerack; partner only if bundled."},
+    {"track": "Behavioral Health", "monthly_code": "G0674", "monthly_amount": "$15/month", "initial_period_max": "$180/year", "follow_on_max": "$90/year", "margin_verdict": "Relevant for eating-disorder wrap-around if paired with tech."}
   ],
   "payers": [
-    {"payer": "Original Medicare (Part B MNT)", "type": "Federal FFS", "covered_diagnoses": "Diabetes, Non-Dialysis Kidney Disease, 36-mo Post Kidney Transplant", "referral_req": "MD/DO required (MNT Act H.R. 6199 / S. 3934 would add NP, PA, CNS, Psychologist)", "telehealth_parity": "Home POS 10 active through Dec 31, 2027 under H.R. 7148", "spicerack_strategy": "Enroll PLLC & RDs now; focus current Medicare marketing on diabetes & renal populations."},
-    {"payer": "Original Medicare (CMS ACCESS Model)", "type": "Federal Innovation Model", "covered_diagnoses": "eCKM (Obesity, Prediabetes, Hypertension, Dyslipidemia) & CKM (Diabetes, CKD, ASCVD)", "referral_req": "Direct patient enrollment or referral; must accept assignment (no private beneficiary billing)", "telehealth_parity": "Virtual & asynchronous care explicitly supported for 10-year term", "spicerack_strategy": "Submit rolling application for eCKM/CKM tracks to get paid $180-$360/yr for obesity & prediabetes."},
-    {"payer": "ACCESS-Pledged Commercial Payers (CVS/Aetna, Humana, UHC, Cigna, BSCA)", "type": "Commercial / MA", "covered_diagnoses": "Aligned with ACCESS chronic care tracks + ACA preventive nutrition", "referral_req": "Varies by plan", "telehealth_parity": "Pledged to offer ACCESS-aligned payment options", "spicerack_strategy": "Diversify commercial payer mix to hedge against the Dec 31, 2027 Medicare home telehealth cliff."}
+    {"payer": "Original Medicare (Part B MNT)", "type": "Federal FFS", "annual_patient_yield": "$250 - $400 / patient / year", "patient_cost_sharing": "$0 (100% covered)", "rd_payment_rule": "Medicare pays 85% of Physician Fee Schedule (42 C.F.R. § 414.64)", "spicerack_strategy": "Bill live 1-on-1 RD care for diabetes & CKD where reimbursement supports clinical labor costs."},
+    {"payer": "CMS ACCESS Model (eCKM & CKM Tracks)", "type": "Federal CMMI Model", "annual_patient_yield": "$180 - $360 (Yr 1) / $90 - $210 (Follow-on)", "patient_cost_sharing": "20% Coinsurance (Medicare pays 80%)", "rd_payment_rule": "Up to 50% paid monthly; 50% held back until 12-mo outcomes met", "spicerack_strategy": "Deploy AI chat & asynchronous patient monitoring; human RD hours reserved for intake/escalation."},
+    {"payer": "CMS LEAD Model ACOs", "type": "Value-Based Entity (Capitation)", "annual_patient_yield": "Negotiated PMPM or Case Rate", "patient_cost_sharing": "Determined by ACO benefit design", "rd_payment_rule": "ACO uses capitated cash flow or shared savings to pay Spicerack", "spicerack_strategy": "Pitch ACOs a predictable monthly PMPM for non-diabetic obesity management to prevent hospitalizations."},
+    {"payer": "CMS BALANCE Pharma Partners", "type": "Commercial B2B Vendor Contract", "annual_patient_yield": "Manufacturer Contract Rate (Per-Patient or Platform Fee)", "patient_cost_sharing": "$0 to patient (Manufacturer subsidized)", "rd_payment_rule": "Contracted via Novo Nordisk or Eli Lilly supplier agreements", "spicerack_strategy": "License Spicerack software + RD telehealth network as turnkey GLP-1 lifestyle wrap-around vendor."}
   ],
   "partnerships": [
     {
       "model": "CMS ACCESS Model",
       "target_entity_type": "Direct Medicare Part B TIN Participation (Rolling Application)",
-      "rd_value_prop": "Deliver virtual/asynchronous MNT for eCKM (obesity, prediabetes, hypertension, dyslipidemia) at $180-$360 Year 1 and $90-$210 follow-on care.",
+      "rd_value_prop": "Deliver virtual/asynchronous chronic care management for eCKM & CKM using monthly codes G0669 ($30/mo) & G0671 ($35/mo).",
       "status": "150 Orgs Accepted July 2026; Expanded Sept 15, 2026",
-      "next_step": "Complete ACCESS interest form and model pricing around $180-$360 Year 1 OAP bands.",
+      "next_step": "Submit rolling application for eCKM/CKM; ensure cost model relies on tech automation rather than hourly RD visits.",
       "portal_url": "https://www.cms.gov/priorities/innovation/innovation-models/access"
     },
     {
       "model": "CMS BALANCE Model",
       "target_entity_type": "Pharmaceutical Manufacturers (Novo Nordisk, Eli Lilly)",
-      "rd_value_prop": "Manufacturers are mandated to provide lifestyle & nutrition counseling alongside GLP-1s; Spicerack cannot bill CMS directly and must partner with pharma.",
+      "rd_value_prop": "Mandated manufacturer lifestyle support. Spicerack cannot bill CMS directly; must secure pharma vendor contracts.",
       "status": "State RFA Open May 2026 - Jan 1, 2027 (IL Unconfirmed)",
-      "next_step": "Apply via Novo Nordisk Digital Partnerships and Eli Lilly Supplier portals.",
+      "next_step": "Apply via Novo Nordisk Digital Partnerships and Eli Lilly Supplier Development portals.",
       "portal_url": "https://digitalpartnerships.novonordisk.com/"
     },
     {
       "model": "CMS LEAD Model",
       "target_entity_type": "Participating ACOs (5,000+ Aligned Beneficiaries in IL & Expansion States)",
-      "rd_value_prop": "Under Global (100%) or Professional (50%) risk and capitation, ACOs can pay Spicerack a PMPM or case rate for non-diabetic obesity & preventive nutrition.",
+      "rd_value_prop": "Under Global (100%) or Professional (50%) risk and capitation, ACOs pay Spicerack a PMPM for non-diabetic obesity care.",
       "status": "10-Year Model Starts Jan 1, 2027",
       "next_step": "Identify LEAD ACO participants in Illinois and pitch predictable PMPM/case-rate nutrition contracts.",
       "portal_url": "https://www.cms.gov/priorities/innovation/innovation-models/lead"
