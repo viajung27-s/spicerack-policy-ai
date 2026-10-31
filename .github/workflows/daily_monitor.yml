@@ -9,6 +9,8 @@ on:
 jobs:
   check-policy-updates:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Check out repository
