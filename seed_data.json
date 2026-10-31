@@ -14,17 +14,35 @@
         "Prepare administrative workflows for referral documentation and expanded ICD-10 diagnosis coding ahead of 120th Congress reintroduction in January 2027."
       ],
       "primary_links": [
-        {"label": "H.R. 6199 (Medical Nutrition Therapy Act of 2025) - Congress.gov", "url": "https://www.congress.gov/bill/119th-congress/house-bill/6199"},
-        {"label": "S. 3934 (Medical Nutrition Therapy Act of 2026) - Congress.gov", "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3934"},
-        {"label": "S. 3934 Cosponsors & All Info - Congress.gov", "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3934/all-info"}
+        {
+          "label": "H.R. 6199 (Medical Nutrition Therapy Act of 2025) - Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/6199"
+        },
+        {
+          "label": "S. 3934 (Medical Nutrition Therapy Act of 2026) - Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3934"
+        },
+        {
+          "label": "S. 3934 Cosponsors & All Info - Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3934/all-info"
+        }
       ],
       "secondary_links": [
-        {"label": "Academy of Nutrition and Dietetics (eatrightPRO Advocacy)", "url": "https://www.eatrightpro.org/advocacy"},
-        {"label": "Congressional Budget Office (CBO) Cost Estimates", "url": "https://www.cbo.gov/cost-estimates"},
-        {"label": "GovTrack Congressional Tracker", "url": "https://www.govtrack.us/"}
+        {
+          "label": "Academy of Nutrition and Dietetics (eatrightPRO Advocacy)",
+          "url": "https://www.eatrightpro.org/advocacy"
+        },
+        {
+          "label": "Congressional Budget Office (CBO) Cost Estimates",
+          "url": "https://www.cbo.gov/cost-estimates"
+        },
+        {
+          "label": "GovTrack Congressional Tracker",
+          "url": "https://www.govtrack.us/"
+        }
       ],
       "route_to": "Revenue Cycle, Clinical Ops",
-      "last_checked": "2026-10-25"
+      "last_checked": "2026-10-31"
     },
     {
       "id": "rd-compact",
@@ -33,7 +51,7 @@
       "impact_area": "Licensure, Cross-State Practice, Entity Compliance",
       "impact_score": "High",
       "summary": "Interstate compact allowing RDs/RDNs with an unencumbered license in a member home state to practice across member states via a 'compact privilege'. Enacted in 19 states (AL, NE, TN, AR, IA, KS, MS, MT, ND, OH, OK, RI, SD, UT, WI, GA, KY, MO, WA). Privileges expected in 2027. Illinois has not introduced a bill yet.",
-      "so_what": "No compact privileges are issued yet, and Illinois is not yet a member state. The compact only covers individual RD licensure—not PLLC corporate entity qualification.",
+      "so_what": "No compact privileges are issued yet, and Illinois is not yet a member state. The compact only covers individual RD licensure\u2014not PLLC corporate entity qualification.",
       "spicerack_recommendations": [
         "Limit near-term state expansion to non-licensure or low-barrier states until compact privileges officially issue in 2027.",
         "Verify foreign entity qualification and professional ownership rules in each target state to confirm an Illinois-licensed PLLC can legally operate there.",
@@ -41,15 +59,27 @@
         "Recruit RDs residing in the 19 enacted compact member states so they can immediately leverage multi-state compact privileges once issued in 2027, and advocate for an Illinois compact bill."
       ],
       "primary_links": [
-        {"label": "Dietitian Licensure Compact Official Site & Map", "url": "https://dietitianscompact.org/"},
-        {"label": "CSG National Center for Interstate Compacts", "url": "https://compacts.csg.org/compact/dietitian-licensure-compact/"}
+        {
+          "label": "Dietitian Licensure Compact Official Site & Map",
+          "url": "https://dietitianscompact.org/"
+        },
+        {
+          "label": "CSG National Center for Interstate Compacts",
+          "url": "https://compacts.csg.org/compact/dietitian-licensure-compact/"
+        }
       ],
       "secondary_links": [
-        {"label": "Commission on Dietetic Registration (CDR) State Licensure", "url": "https://www.cdrnet.org/state-licensure"},
-        {"label": "Academy of Nutrition and Dietetics Licensure Statutes", "url": "https://www.eatrightpro.org/advocacy/licensure/licensure-map-and-statutes"}
+        {
+          "label": "Commission on Dietetic Registration (CDR) State Licensure",
+          "url": "https://www.cdrnet.org/state-licensure"
+        },
+        {
+          "label": "Academy of Nutrition and Dietetics Licensure Statutes",
+          "url": "https://www.eatrightpro.org/advocacy/licensure/licensure-map-and-statutes"
+        }
       ],
       "route_to": "Compliance, Clinical Recruiting",
-      "last_checked": "2026-10-25"
+      "last_checked": "2026-10-31"
     },
     {
       "id": "medicare-telehealth",
@@ -65,16 +95,31 @@
         "Remember that federal Medicare telehealth waivers do not override state-level licensure or state telehealth practice standards."
       ],
       "primary_links": [
-        {"label": "H.R. 7148 (Consolidated Appropriations Act of 2026) - Congress.gov", "url": "https://www.congress.gov/bill/119th-congress/house-bill/7148"},
-        {"label": "HHS Telehealth Policy Updates", "url": "https://telehealth.hhs.gov/providers/telehealth-policy/telehealth-policy-updates"},
-        {"label": "CMS Medicare Telehealth List & Guidance", "url": "https://www.cms.gov/medicare/coverage/telehealth"}
+        {
+          "label": "H.R. 7148 (Consolidated Appropriations Act of 2026) - Congress.gov",
+          "url": "https://www.congress.gov/bill/119th-congress/house-bill/7148"
+        },
+        {
+          "label": "HHS Telehealth Policy Updates",
+          "url": "https://telehealth.hhs.gov/providers/telehealth-policy/telehealth-policy-updates"
+        },
+        {
+          "label": "CMS Medicare Telehealth List & Guidance",
+          "url": "https://www.cms.gov/medicare/coverage/telehealth"
+        }
       ],
       "secondary_links": [
-        {"label": "ABA Health Law: Medicare Telehealth Flexibilities Extended to 2027", "url": "https://www.americanbar.org/groups/health_law/news/2026/medicare-telehealth-flexibilities-extended-2027/"},
-        {"label": "Center for Connected Health Policy (CCHP)", "url": "https://www.cchpca.org/"}
+        {
+          "label": "ABA Health Law: Medicare Telehealth Flexibilities Extended to 2027",
+          "url": "https://www.americanbar.org/groups/health_law/news/2026/medicare-telehealth-flexibilities-extended-2027/"
+        },
+        {
+          "label": "Center for Connected Health Policy (CCHP)",
+          "url": "https://www.cchpca.org/"
+        }
       ],
       "route_to": "Compliance, Revenue Cycle",
-      "last_checked": "2026-10-25"
+      "last_checked": "2026-10-31"
     },
     {
       "id": "cms-access",
@@ -90,17 +135,35 @@
         "Complete the CMS ACCESS rolling interest form focused on the eCKM (obesity, prediabetes) and CKM tracks."
       ],
       "primary_links": [
-        {"label": "CMS ACCESS Model Official Page", "url": "https://www.cms.gov/priorities/innovation/innovation-models/access"},
-        {"label": "CMS ACCESS Payment Amounts & Performance Targets PDF", "url": "https://www.cms.gov/priorities/innovation/files/access-payments-amts-perf-targets.pdf"},
-        {"label": "CMS ACCESS OAP Billing Guidelines PDF", "url": "https://www.cms.gov/priorities/innovation/files/access-oap-billing-guidelines.pdf"},
-        {"label": "CMS ACCESS Co-Management Payment (CMP) Guidance", "url": "https://www.cms.gov/priorities/innovation/access-co-management-payment-cmp-billing-guidance"},
-        {"label": "CMS ACCESS Technical FAQs", "url": "https://www.cms.gov/priorities/innovation/access-technical-frequently-asked-questions"}
+        {
+          "label": "CMS ACCESS Model Official Page",
+          "url": "https://www.cms.gov/priorities/innovation/innovation-models/access"
+        },
+        {
+          "label": "CMS ACCESS Payment Amounts & Performance Targets PDF",
+          "url": "https://www.cms.gov/priorities/innovation/files/access-payments-amts-perf-targets.pdf"
+        },
+        {
+          "label": "CMS ACCESS OAP Billing Guidelines PDF",
+          "url": "https://www.cms.gov/priorities/innovation/files/access-oap-billing-guidelines.pdf"
+        },
+        {
+          "label": "CMS ACCESS Co-Management Payment (CMP) Guidance",
+          "url": "https://www.cms.gov/priorities/innovation/access-co-management-payment-cmp-billing-guidance"
+        },
+        {
+          "label": "CMS ACCESS Technical FAQs",
+          "url": "https://www.cms.gov/priorities/innovation/access-technical-frequently-asked-questions"
+        }
       ],
       "secondary_links": [
-        {"label": "TechTarget: CMS Taps Verily, Noom & 150 Others for ACCESS", "url": "https://www.techtarget.com/virtualhealthcare/news/366641624/CMS-taps-Verily-Noom-150-others-to-participate-in-ACCESS-model"}
+        {
+          "label": "TechTarget: CMS Taps Verily, Noom & 150 Others for ACCESS",
+          "url": "https://www.techtarget.com/virtualhealthcare/news/366641624/CMS-taps-Verily-Noom-150-others-to-participate-in-ACCESS-model"
+        }
       ],
       "route_to": "Business Development, Revenue Cycle",
-      "last_checked": "2026-10-25"
+      "last_checked": "2026-10-31"
     },
     {
       "id": "cms-lead",
@@ -108,7 +171,7 @@
       "status": "Launches Jan 1, 2027 (10-Year Model to 2036)",
       "impact_area": "Payment Model, ACO B2B Contracting",
       "impact_score": "Medium",
-      "summary": "10-year successor to ACO REACH (Jan 1, 2027 - Dec 31, 2036) with Global (100%) and Professional (50%) risk tracks and primary/total care capitation. Participating ACOs must have at least 5,000 aligned Original Medicare beneficiaries. Dietitians receive 85% of the Physician Fee Schedule under 42 C.F.R. § 414.64.",
+      "summary": "10-year successor to ACO REACH (Jan 1, 2027 - Dec 31, 2036) with Global (100%) and Professional (50%) risk tracks and primary/total care capitation. Participating ACOs must have at least 5,000 aligned Original Medicare beneficiaries. Dietitians receive 85% of the Physician Fee Schedule under 42 C.F.R. \u00a7 414.64.",
       "so_what": "LEAD ACOs bear downside financial risk and can use capitation dollars to pay Spicerack a predictable PMPM or case rate to deliver nutrition interventions for non-diabetic obesity that Medicare FFS excludes.",
       "spicerack_recommendations": [
         "Target published LEAD ACO participant lists in Illinois and expansion states with at least 5,000 aligned beneficiaries.",
@@ -116,17 +179,35 @@
         "Emphasize that clinical nutrition reduces preventable admissions and helps ACOs earn their 50%-100% shared savings."
       ],
       "primary_links": [
-        {"label": "CMS LEAD Model Official Page", "url": "https://www.cms.gov/priorities/innovation/innovation-models/lead"},
-        {"label": "42 C.F.R. § 414.64 (Payment for Dietitian Services at 85% PFS)", "url": "https://www.ecfr.gov/current/title-42/section-414.64"},
-        {"label": "CMS National Coverage Determination (NCD) for MNT", "url": "http://www.cms.gov/Medicare-Coverage-Database/view/ncd.aspx?ncdid=252"},
-        {"label": "42 C.F.R. Part 410 Subpart G (MNT Covered Services)", "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-410/subpart-G"}
+        {
+          "label": "CMS LEAD Model Official Page",
+          "url": "https://www.cms.gov/priorities/innovation/innovation-models/lead"
+        },
+        {
+          "label": "42 C.F.R. \u00a7 414.64 (Payment for Dietitian Services at 85% PFS)",
+          "url": "https://www.ecfr.gov/current/title-42/section-414.64"
+        },
+        {
+          "label": "CMS National Coverage Determination (NCD) for MNT",
+          "url": "http://www.cms.gov/Medicare-Coverage-Database/view/ncd.aspx?ncdid=252"
+        },
+        {
+          "label": "42 C.F.R. Part 410 Subpart G (MNT Covered Services)",
+          "url": "https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-410/subpart-G"
+        }
       ],
       "secondary_links": [
-        {"label": "NAACOS (National Association of ACOs)", "url": "https://www.naacos.com/"},
-        {"label": "TheraThink CPT 97802 / 97803 Reimbursement Guide", "url": "https://therathink.com/cpt-code-97802/"}
+        {
+          "label": "NAACOS (National Association of ACOs)",
+          "url": "https://www.naacos.com/"
+        },
+        {
+          "label": "TheraThink CPT 97802 / 97803 Reimbursement Guide",
+          "url": "https://therathink.com/cpt-code-97802/"
+        }
       ],
       "route_to": "Business Development",
-      "last_checked": "2026-10-25"
+      "last_checked": "2026-10-31"
     },
     {
       "id": "cms-balance",
@@ -134,7 +215,7 @@
       "status": "State RFA Window Open (May 2026 - Jan 1, 2027)",
       "impact_area": "Payment Model, Pharma B2B Partnerships, GLP-1 Wrap-Around",
       "impact_score": "High",
-      "summary": "Announced Dec 23, 2025 under SSA § 1115A. Mandates participating GLP-1 manufacturers provide evidence-based lifestyle and nutrition support. State Medicaid agencies can join through Jan 1, 2027 (Illinois status unconfirmed). RDs cannot bill CMS directly; revenue comes solely from pharma vendor contracts.",
+      "summary": "Announced Dec 23, 2025 under SSA \u00a7 1115A. Mandates participating GLP-1 manufacturers provide evidence-based lifestyle and nutrition support. State Medicaid agencies can join through Jan 1, 2027 (Illinois status unconfirmed). RDs cannot bill CMS directly; revenue comes solely from pharma vendor contracts.",
       "so_what": "Spicerack cannot apply to CMS to bill BALANCE directly. Revenue is entirely determined by what pharmaceutical company contracts offer, and manufacturers may favor lower-cost AI wrap-arounds over live clinical staffing.",
       "spicerack_recommendations": [
         "Pitch pharma partners (Novo Nordisk, Eli Lilly) a hybrid model pairing Spicerack's AI tracking platform with licensed RD telehealth support.",
@@ -142,16 +223,31 @@
         "Track Illinois Department of Healthcare and Family Services (HFS) for an official BALANCE State RFA submission prior to Jan 1, 2027."
       ],
       "primary_links": [
-        {"label": "CMS BALANCE Model Official Page", "url": "https://www.cms.gov/priorities/innovation/innovation-models/balance"},
-        {"label": "Novo Nordisk Digital Partnerships Portal", "url": "https://digitalpartnerships.novonordisk.com/"},
-        {"label": "Eli Lilly Supplier Development Portal", "url": "https://www.lilly.com/suppliers/development"},
-        {"label": "CMS Technology-Enabled Care & AI Concepts", "url": "https://www.cms.gov/priorities-innovation-key-concepts-technology-enabled-care-artificial-intelligence"}
+        {
+          "label": "CMS BALANCE Model Official Page",
+          "url": "https://www.cms.gov/priorities/innovation/innovation-models/balance"
+        },
+        {
+          "label": "Novo Nordisk Digital Partnerships Portal",
+          "url": "https://digitalpartnerships.novonordisk.com/"
+        },
+        {
+          "label": "Eli Lilly Supplier Development Portal",
+          "url": "https://www.lilly.com/suppliers/development"
+        },
+        {
+          "label": "CMS Technology-Enabled Care & AI Concepts",
+          "url": "https://www.cms.gov/priorities-innovation-key-concepts-technology-enabled-care-artificial-intelligence"
+        }
       ],
       "secondary_links": [
-        {"label": "NCPA: CMS BALANCE Model GLP-1 Coverage Analysis", "url": "https://ncpa.org/newsroom/qam/2026/01/05/cms-formally-announces-balance-model-expanding-access-glp-1-medications"}
+        {
+          "label": "NCPA: CMS BALANCE Model GLP-1 Coverage Analysis",
+          "url": "https://ncpa.org/newsroom/qam/2026/01/05/cms-formally-announces-balance-model-expanding-access-glp-1-medications"
+        }
       ],
       "route_to": "Business Development",
-      "last_checked": "2026-10-25"
+      "last_checked": "2026-10-31"
     }
   ],
   "deadlines": [
@@ -185,48 +281,277 @@
     }
   ],
   "states": [
-    {"state": "IL", "compact_status": "Non-Compact (Home Base - No Bill Yet)", "reg_type": "Licensure", "privilege_active": "Requires Full IL License", "telehealth_notes": "Spicerack home state; Rep. Robin Kelly (IL-02) sponsors MNT Act. Advocate for IL compact bill and verify foreign PLLC rules when expanding."},
-    {"state": "AL", "compact_status": "Compact Enacted (2024)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state; requires individual license until privileges issue in 2027."},
-    {"state": "NE", "compact_status": "Compact Enacted (2024)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "TN", "compact_status": "Compact Enacted (2024)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "AR", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "IA", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state bordering Illinois."},
-    {"state": "KS", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "MS", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "MT", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "ND", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "OH", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "High-demand Midwest compact member state."},
-    {"state": "OK", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "RI", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "SD", "compact_status": "Compact Enacted (2025)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "UT", "compact_status": "Compact Enacted (2025)", "reg_type": "Certification", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state."},
-    {"state": "WI", "compact_status": "Compact Enacted (2025)", "reg_type": "Certification", "privilege_active": "Expected 2027", "telehealth_notes": "Active compact member state bordering Illinois."},
-    {"state": "GA", "compact_status": "Compact Enacted (2026)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Enacted compact in 2026."},
-    {"state": "KY", "compact_status": "Compact Enacted (2026)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Enacted compact in 2026; borders Illinois."},
-    {"state": "MO", "compact_status": "Compact Enacted (2026)", "reg_type": "Licensure", "privilege_active": "Expected 2027", "telehealth_notes": "Enacted compact in 2026; borders Illinois."},
-    {"state": "WA", "compact_status": "Compact Enacted (2026)", "reg_type": "Certification", "privilege_active": "Expected 2027", "telehealth_notes": "Enacted compact in 2026."},
-    {"state": "AZ", "compact_status": "Low-Barrier Non-Compact", "reg_type": "No State Licensure", "privilege_active": "Open Practice", "telehealth_notes": "Feasible near-term expansion state before compact privileges launch."},
-    {"state": "CO", "compact_status": "Low-Barrier Non-Compact", "reg_type": "No State Licensure", "privilege_active": "Open Practice", "telehealth_notes": "Feasible near-term expansion state before compact privileges launch."},
-    {"state": "CA", "compact_status": "Low-Barrier Non-Compact", "reg_type": "Title Protection Only", "privilege_active": "Open Practice with CDR", "telehealth_notes": "Verify foreign PLLC rules; CA prohibits standard PLLCs, requiring alternative corporate structure."}
+    {
+      "state": "IL",
+      "compact_status": "Non-Compact (Home Base - No Bill Yet)",
+      "reg_type": "Licensure",
+      "privilege_active": "Requires Full IL License",
+      "telehealth_notes": "Spicerack home state; Rep. Robin Kelly (IL-02) sponsors MNT Act. Advocate for IL compact bill and verify foreign PLLC rules when expanding."
+    },
+    {
+      "state": "AL",
+      "compact_status": "Compact Enacted (2024)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state; requires individual license until privileges issue in 2027."
+    },
+    {
+      "state": "NE",
+      "compact_status": "Compact Enacted (2024)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "TN",
+      "compact_status": "Compact Enacted (2024)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "AR",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "IA",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state bordering Illinois."
+    },
+    {
+      "state": "KS",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "MS",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "MT",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "ND",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "OH",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "High-demand Midwest compact member state."
+    },
+    {
+      "state": "OK",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "RI",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "SD",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "UT",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Certification",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state."
+    },
+    {
+      "state": "WI",
+      "compact_status": "Compact Enacted (2025)",
+      "reg_type": "Certification",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Active compact member state bordering Illinois."
+    },
+    {
+      "state": "GA",
+      "compact_status": "Compact Enacted (2026)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Enacted compact in 2026."
+    },
+    {
+      "state": "KY",
+      "compact_status": "Compact Enacted (2026)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Enacted compact in 2026; borders Illinois."
+    },
+    {
+      "state": "MO",
+      "compact_status": "Compact Enacted (2026)",
+      "reg_type": "Licensure",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Enacted compact in 2026; borders Illinois."
+    },
+    {
+      "state": "WA",
+      "compact_status": "Compact Enacted (2026)",
+      "reg_type": "Certification",
+      "privilege_active": "Expected 2027",
+      "telehealth_notes": "Enacted compact in 2026."
+    },
+    {
+      "state": "AZ",
+      "compact_status": "Low-Barrier Non-Compact",
+      "reg_type": "No State Licensure",
+      "privilege_active": "Open Practice",
+      "telehealth_notes": "Feasible near-term expansion state before compact privileges launch."
+    },
+    {
+      "state": "CO",
+      "compact_status": "Low-Barrier Non-Compact",
+      "reg_type": "No State Licensure",
+      "privilege_active": "Open Practice",
+      "telehealth_notes": "Feasible near-term expansion state before compact privileges launch."
+    },
+    {
+      "state": "CA",
+      "compact_status": "Low-Barrier Non-Compact",
+      "reg_type": "Title Protection Only",
+      "privilege_active": "Open Practice with CDR",
+      "telehealth_notes": "Verify foreign PLLC rules; CA prohibits standard PLLCs, requiring alternative corporate structure."
+    }
   ],
   "billing_codes_mnt": [
-    {"code": "97802", "service": "First assessment and treatment (individual)", "unit": "15 min", "natl_rate_2026": "$36.74", "coinsurance": "$0 for qualified Medicare patients", "notes": "Capped at 3 hours total (with 97803) in Year 1. Medicare pays 85% of PFS."},
-    {"code": "97803", "service": "Reassessment and treatment (individual)", "unit": "15 min", "natl_rate_2026": "$31.73", "coinsurance": "$0 for qualified Medicare patients", "notes": "Capped at 2 hours total in subsequent years. Medicare pays 85% of PFS."},
-    {"code": "97804", "service": "Group session (2+ patients)", "unit": "30 min", "natl_rate_2026": "$17.03", "coinsurance": "$0 for qualified Medicare patients", "notes": "Scalable group education for diabetes/renal cohorts."},
-    {"code": "G0270", "service": "Reassessment following second referral (change in diagnosis)", "unit": "15 min", "natl_rate_2026": "Aligned w/ 97803", "coinsurance": "$0", "notes": "Allows additional billing hours beyond annual cap if referring MD documents change."},
-    {"code": "G0271", "service": "Reassessment following second referral, group", "unit": "30 min", "natl_rate_2026": "Aligned w/ 97804", "coinsurance": "$0", "notes": "Group equivalent of G0270."}
+    {
+      "code": "97802",
+      "service": "First assessment and treatment (individual)",
+      "unit": "15 min",
+      "natl_rate_2026": "$36.74",
+      "coinsurance": "$0 for qualified Medicare patients",
+      "notes": "Capped at 3 hours total (with 97803) in Year 1. Medicare pays 85% of PFS."
+    },
+    {
+      "code": "97803",
+      "service": "Reassessment and treatment (individual)",
+      "unit": "15 min",
+      "natl_rate_2026": "$31.73",
+      "coinsurance": "$0 for qualified Medicare patients",
+      "notes": "Capped at 2 hours total in subsequent years. Medicare pays 85% of PFS."
+    },
+    {
+      "code": "97804",
+      "service": "Group session (2+ patients)",
+      "unit": "30 min",
+      "natl_rate_2026": "$17.03",
+      "coinsurance": "$0 for qualified Medicare patients",
+      "notes": "Scalable group education for diabetes/renal cohorts."
+    },
+    {
+      "code": "G0270",
+      "service": "Reassessment following second referral (change in diagnosis)",
+      "unit": "15 min",
+      "natl_rate_2026": "Aligned w/ 97803",
+      "coinsurance": "$0",
+      "notes": "Allows additional billing hours beyond annual cap if referring MD documents change."
+    },
+    {
+      "code": "G0271",
+      "service": "Reassessment following second referral, group",
+      "unit": "30 min",
+      "natl_rate_2026": "Aligned w/ 97804",
+      "coinsurance": "$0",
+      "notes": "Group equivalent of G0270."
+    }
   ],
   "billing_codes_access": [
-    {"track": "eCKM (Obesity, Prediabetes, HTN, Dyslipidemia)", "monthly_code": "G0669", "monthly_amount": "$30/month", "initial_period_max": "$360/year", "follow_on_max": "$180/year", "margin_verdict": "Low live RD margin. Requires AI/asynchronous automation to be profitable."},
-    {"track": "CKM (Diabetes, CKD, ASCVD)", "monthly_code": "G0671", "monthly_amount": "$35/month", "initial_period_max": "$420/year", "follow_on_max": "$210/year", "margin_verdict": "Max $35/mo before 20% patient coinsurance is less than one 15-min MNT unit ($36.74)."},
-    {"track": "MSK (Chronic Pain)", "monthly_code": "G0673", "monthly_amount": "$15/month", "initial_period_max": "$180/year", "follow_on_max": "None", "margin_verdict": "Non-core for Spicerack; partner only if bundled."},
-    {"track": "Behavioral Health", "monthly_code": "G0674", "monthly_amount": "$15/month", "initial_period_max": "$180/year", "follow_on_max": "$90/year", "margin_verdict": "Relevant for eating-disorder wrap-around if paired with tech."}
+    {
+      "track": "eCKM (Obesity, Prediabetes, HTN, Dyslipidemia)",
+      "monthly_code": "G0669",
+      "monthly_amount": "$30/month",
+      "initial_period_max": "$360/year",
+      "follow_on_max": "$180/year",
+      "margin_verdict": "Low live RD margin. Requires AI/asynchronous automation to be profitable."
+    },
+    {
+      "track": "CKM (Diabetes, CKD, ASCVD)",
+      "monthly_code": "G0671",
+      "monthly_amount": "$35/month",
+      "initial_period_max": "$420/year",
+      "follow_on_max": "$210/year",
+      "margin_verdict": "Max $35/mo before 20% patient coinsurance is less than one 15-min MNT unit ($36.74)."
+    },
+    {
+      "track": "MSK (Chronic Pain)",
+      "monthly_code": "G0673",
+      "monthly_amount": "$15/month",
+      "initial_period_max": "$180/year",
+      "follow_on_max": "None",
+      "margin_verdict": "Non-core for Spicerack; partner only if bundled."
+    },
+    {
+      "track": "Behavioral Health",
+      "monthly_code": "G0674",
+      "monthly_amount": "$15/month",
+      "initial_period_max": "$180/year",
+      "follow_on_max": "$90/year",
+      "margin_verdict": "Relevant for eating-disorder wrap-around if paired with tech."
+    }
   ],
   "payers": [
-    {"payer": "Original Medicare (Part B MNT)", "type": "Federal FFS", "annual_patient_yield": "$250 - $400 / patient / year", "patient_cost_sharing": "$0 (100% covered)", "rd_payment_rule": "Medicare pays 85% of Physician Fee Schedule (42 C.F.R. § 414.64)", "spicerack_strategy": "Bill live 1-on-1 RD care for diabetes & CKD where reimbursement supports clinical labor costs."},
-    {"payer": "CMS ACCESS Model (eCKM & CKM Tracks)", "type": "Federal CMMI Model", "annual_patient_yield": "$180 - $360 (Yr 1) / $90 - $210 (Follow-on)", "patient_cost_sharing": "20% Coinsurance (Medicare pays 80%)", "rd_payment_rule": "Up to 50% paid monthly; 50% held back until 12-mo outcomes met", "spicerack_strategy": "Deploy AI chat & asynchronous patient monitoring; human RD hours reserved for intake/escalation."},
-    {"payer": "CMS LEAD Model ACOs", "type": "Value-Based Entity (Capitation)", "annual_patient_yield": "Negotiated PMPM or Case Rate", "patient_cost_sharing": "Determined by ACO benefit design", "rd_payment_rule": "ACO uses capitated cash flow or shared savings to pay Spicerack", "spicerack_strategy": "Pitch ACOs a predictable monthly PMPM for non-diabetic obesity management to prevent hospitalizations."},
-    {"payer": "CMS BALANCE Pharma Partners", "type": "Commercial B2B Vendor Contract", "annual_patient_yield": "Manufacturer Contract Rate (Per-Patient or Platform Fee)", "patient_cost_sharing": "$0 to patient (Manufacturer subsidized)", "rd_payment_rule": "Contracted via Novo Nordisk or Eli Lilly supplier agreements", "spicerack_strategy": "License Spicerack software + RD telehealth network as turnkey GLP-1 lifestyle wrap-around vendor."}
+    {
+      "payer": "Original Medicare (Part B MNT)",
+      "type": "Federal FFS",
+      "annual_patient_yield": "$250 - $400 / patient / year",
+      "patient_cost_sharing": "$0 (100% covered)",
+      "rd_payment_rule": "Medicare pays 85% of Physician Fee Schedule (42 C.F.R. \u00a7 414.64)",
+      "spicerack_strategy": "Bill live 1-on-1 RD care for diabetes & CKD where reimbursement supports clinical labor costs."
+    },
+    {
+      "payer": "CMS ACCESS Model (eCKM & CKM Tracks)",
+      "type": "Federal CMMI Model",
+      "annual_patient_yield": "$180 - $360 (Yr 1) / $90 - $210 (Follow-on)",
+      "patient_cost_sharing": "20% Coinsurance (Medicare pays 80%)",
+      "rd_payment_rule": "Up to 50% paid monthly; 50% held back until 12-mo outcomes met",
+      "spicerack_strategy": "Deploy AI chat & asynchronous patient monitoring; human RD hours reserved for intake/escalation."
+    },
+    {
+      "payer": "CMS LEAD Model ACOs",
+      "type": "Value-Based Entity (Capitation)",
+      "annual_patient_yield": "Negotiated PMPM or Case Rate",
+      "patient_cost_sharing": "Determined by ACO benefit design",
+      "rd_payment_rule": "ACO uses capitated cash flow or shared savings to pay Spicerack",
+      "spicerack_strategy": "Pitch ACOs a predictable monthly PMPM for non-diabetic obesity management to prevent hospitalizations."
+    },
+    {
+      "payer": "CMS BALANCE Pharma Partners",
+      "type": "Commercial B2B Vendor Contract",
+      "annual_patient_yield": "Manufacturer Contract Rate (Per-Patient or Platform Fee)",
+      "patient_cost_sharing": "$0 to patient (Manufacturer subsidized)",
+      "rd_payment_rule": "Contracted via Novo Nordisk or Eli Lilly supplier agreements",
+      "spicerack_strategy": "License Spicerack software + RD telehealth network as turnkey GLP-1 lifestyle wrap-around vendor."
+    }
   ],
   "partnerships": [
     {
@@ -253,5 +578,10 @@
       "next_step": "Identify LEAD ACO participants in Illinois and pitch predictable PMPM/case-rate nutrition contracts.",
       "portal_url": "https://www.cms.gov/priorities/innovation/innovation-models/lead"
     }
-  ]
+  ],
+  "system_metadata": {
+    "last_automated_update": "Saturday, October 31, 2026 at 05:32 PM UTC",
+    "last_update_date": "2026-10-31",
+    "status": "Active & Monitored"
+  }
 }
