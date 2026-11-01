@@ -42,7 +42,7 @@
         }
       ],
       "route_to": "Revenue Cycle, Clinical Ops",
-      "last_checked": "2026-10-31"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "rd-compact",
@@ -79,7 +79,7 @@
         }
       ],
       "route_to": "Compliance, Clinical Recruiting",
-      "last_checked": "2026-10-31"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "medicare-telehealth",
@@ -119,7 +119,7 @@
         }
       ],
       "route_to": "Compliance, Revenue Cycle",
-      "last_checked": "2026-10-31"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "cms-access",
@@ -163,7 +163,7 @@
         }
       ],
       "route_to": "Business Development, Revenue Cycle",
-      "last_checked": "2026-10-31"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "cms-lead",
@@ -207,7 +207,7 @@
         }
       ],
       "route_to": "Business Development",
-      "last_checked": "2026-10-31"
+      "last_checked": "2026-11-01"
     },
     {
       "id": "cms-balance",
@@ -247,7 +247,7 @@
         }
       ],
       "route_to": "Business Development",
-      "last_checked": "2026-10-31"
+      "last_checked": "2026-11-01"
     }
   ],
   "deadlines": [
@@ -580,8 +580,8 @@
     }
   ],
   "system_metadata": {
-    "last_automated_update": "Saturday, October 31, 2026 at 05:32 PM UTC",
-    "last_update_date": "2026-10-31",
+    "last_automated_update": "Sunday, November 01, 2026 at 06:18 PM UTC",
+    "last_update_date": "2026-11-01",
     "status": "Active & Monitored"
   }
 }
